@@ -1,0 +1,56 @@
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
+
+
+.principal .formulario input[type=text].error {
+	border: 5px solid #D32F2F;
+	color: red;
+}
+
+img{
+	height: 200px;
+}
+
+.azul{
+  color: #33A5FF;
+}
+.rojo{
+	color: #FF3361;
+}
+.verde{
+	color: #61FF33;	
+}
+
+dd{
+	margin: 0;
+	padding: 10px;
+}
+
+dt{
+	cursor: pointer;
+	font-size: 18px;
+	background-color: #e3e3e3;
+	border-bottom: 1px solid #c5c5c5;  
+	border-top:1px solid white; 
+}
+
+.preLoader{
+	position: absolute;
+	opacity: 0.4;	
+}
